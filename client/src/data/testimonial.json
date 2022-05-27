@@ -1,0 +1,20 @@
+[
+  {
+    "profil": "/img/photo.png",
+    "rate": "/img/Rate.png",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    "name": "John Dee 32, Bromo"
+  },
+  {
+    "profil": "/img/photo2.png",
+    "rate": "/img/Rate.png",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    "name": "John Dee 32, Bromo"
+  },
+  {
+    "profil": "/img/photo.png",
+    "rate": "/img/Rate.png",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    "name": "John Dee 32, Bromo"
+  }
+]

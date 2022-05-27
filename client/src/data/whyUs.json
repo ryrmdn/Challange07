@@ -1,0 +1,22 @@
+[
+  {
+    "image": "img/iconComplete.png",
+    "title": "Mobil Lengkap",
+    "body": "Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat"
+  },
+  {
+    "image": "../img/iconPrice.png",
+    "title": "Harga Murah",
+    "body": "Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain"
+  },
+  {
+    "image": "./img/icon24hrs.png",
+    "title": "Layanan 24 Jam",
+    "body": "Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu"
+  },
+  {
+    "image": "./img/iconProfessional.png",
+    "title": "Sopir Profesional",
+    "body": "Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu"
+  }
+]

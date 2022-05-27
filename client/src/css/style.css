@@ -1,0 +1,207 @@
+/* Deklarasi warna */
+.blue-1 {
+  background-color: #F1F3FF;
+}
+.blue-4 {
+  background-color: #0D28A6;
+}
+.green-1 {
+  background-color: #DEF1DF;
+}
+.green-2 {
+  background-color: #C9E7CA;
+}
+.green-3 {
+  background-color: #92D094;
+}
+.green-4 {
+  background-color: #5CB85F;
+}
+.green-5 {
+  background-color: #3D7B3F;
+}
+
+/* Umum */
+body {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.logo {
+  width: 100px;
+}
+
+/* NAVBAR */
+nav a:hover {
+  font-weight: bold;
+}
+.btn:hover {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* HOME */
+.home-content {
+  padding-left: 7%;
+}
+.home-content h1,
+.home-content p,
+.home-content a {
+  text-align: left;
+}
+.home-content img {
+  float: right;
+}
+
+/* TAMPILAN OUR SERVICE */
+.poin {
+  width: 24px;
+}
+
+/* TAMPILAN WHY US */
+.card-why-us {
+  min-height: 14rem;
+  border-radius: 10px;
+}
+.icon {
+  width: 36px;
+}
+.tes {
+  border:red solid 1px;
+
+}
+
+/* TAMPILAN BANNER */
+.banner {
+  border-radius: 10px;
+}
+.banner-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* TAMPILAN TESTIMONIAL */
+.bold-text {
+  font-weight: bold;
+}
+
+/* TAMPILAN FOOTER */
+.footer-menu {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+.sosmed {
+  height: 32px;
+}
+
+/* CARD FILTER */
+.card-pesan {
+  width: 80%;
+  margin-top: -50px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px #ebebeb;
+  font-size: 12px;
+  z-index: 3;
+  position:relative;
+}
+.fifty-chars {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+/* RESPONSIVE */
+/* Small Desktop */
+@media only screen and (max-width: 1200px) {
+  .card-why-us {
+    min-height: 16rem;
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 12px;
+  }
+  .home-content {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-our {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-why-us {
+    min-height: 21rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card-why-us {
+    min-height: 12rem;
+  }
+  .why-us-text {
+    text-align: center;
+  }
+  .rate {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-text {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .owl-carousel .card {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner {
+    max-width: 25rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 360px) {
+  .card-why-us {
+    min-height: 5rem;
+  }
+  .owl-carousel .card {
+    max-width: 20rem;
+  }
+  .banner {
+    max-width: 20rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner p {
+    font-size: 1rem;
+  }
+}
